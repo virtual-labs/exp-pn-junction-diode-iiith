@@ -53,11 +53,19 @@ DIFFUSION capacitance
 
 ### 6. Temperature Effects
 
-Temperature influences:
-- Built-in potential (decreases with T)
-- Reverse saturation current (increases exponentially with T)
-- Bandgap (decreases with T)
-- Carrier mobilities and diffusion coefficients
+
+| Feature                   | Effect with Temperature Increase | Explanation                          |
+|----------------------------|----------------------------------|-------------------------------------|
+| **Built-in Potential**      | Decreases                      | Higher \( n_i \) reduces potential barrier |
+| **Reverse Saturation Current** | Increases Exponentially        | Higher \( n_i^2 \) generates more leakage current |
+| **Bandgap Energy**          | Decreases                      | Lattice vibrations weaken atomic bonds |
+| **Carrier Mobility**         | Decreases                      | More phonon scattering |
+| **Diffusion Coefficient**     | Slightly Increases            | \( kT \) rise partially compensates for lower mobility |
+
+---
+
+Let me know if you need **derivations** or **graphical representations**! 😊
+
 
 ## Applications
 
