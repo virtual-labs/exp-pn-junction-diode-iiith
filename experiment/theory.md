@@ -49,58 +49,15 @@ Capacitive effects in a PN junction arise due to the storage of charge when the 
 ---
 
 #### 1. Depletion Capacitance
-- The **Depletion Capacitance** (\( C_d \)) occurs due to the charge stored in the depletion layer.
+- The **Depletion Capacitance** occurs due to the charge stored in the depletion layer.
 - When the reverse bias voltage across the PN junction changes, the width of the depletion region also changes, which alters the stored charge.
-- The depletion capacitance is given by:
 
-\[
-C_d = \frac{dQ}{dV}
-\]
 
-where:
-
-- \( Q \) is the charge stored in the depletion region
-- \( V \) is the applied voltage
-
-For an abrupt PN junction, the depletion capacitance is approximately:
-
-\[
-C_d = \varepsilon \frac{A}{W}
-\]
-
-where:
-
-- \( \varepsilon \) = Permittivity of the semiconductor
-- \( A \) = Cross-sectional area of the junction
-- \( W \) = Width of the depletion region
-
----
 
 #### 2. Diffusion Capacitance
-- The **Diffusion Capacitance** (\( C_{diff} \)) arises due to the minority carrier charge stored in the neutral regions of the PN junction under **forward bias** conditions.
+- The **Diffusion Capacitance** arises due to the minority carrier charge stored in the neutral regions of the PN junction under **forward bias** conditions.
 - When a voltage is applied, minority carriers are injected into the neutral regions, establishing a charge gradient.
 
-The diffusion capacitance is given by:
-
-\[
-C_{diff} = \frac{dQ_{minority}}{dV}
-\]
-
-It can be approximated as:
-
-\[
-C_{diff} \approx \frac{\tau I}{V_T}
-\]
-
-where:
-
-- \( \tau \) = Minority carrier lifetime
-- \( I \) = Forward current
-- \( V_T = \frac{kT}{q} \) is the thermal voltage
-
----
-
-### Comparison Table
 
 | Capacitance Type     | Condition       | Stored Charge             | Dominates in        |
 |---------------------|----------------|--------------------------|--------------------|
@@ -109,7 +66,6 @@ where:
 
 ---
 
-### Diagram
 
 ![Capacitive Effects](./images/cap.png)
 

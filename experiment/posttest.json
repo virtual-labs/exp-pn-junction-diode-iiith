@@ -69,24 +69,7 @@
       "correctAnswer": "c",
       "difficulty": "tough"
     },
-    {
-      "question": "In a high-injection regime, how does the forward current-voltage relationship differ from low-injection?",
-      "answers": {
-        "a": "Changes from exponential to linear",
-        "b": "Ideality factor changes from 1 to 2",
-        "c": "Current becomes independent of voltage",
-        "d": "Voltage dependence doubles (slope halves)"
-      },
-      "explanations": {
-        "a": "Incorrect. The relationship remains exponential but with modified parameters.",
-        "b": "Incorrect. This describes recombination in the depletion region, not high injection.",
-        "c": "Incorrect. Current still depends on voltage.",
-        "d": "Correct. In high-injection, the voltage dependence is halved due to conductivity modulation and charge neutrality requirements."
-      },
-      "correctAnswer": "d",
-      "difficulty": "expert"
-    },
-    {
+        {
       "question": "How does the depletion capacitance of a PN junction vary with reverse bias voltage?",
       "answers": {
         "a": "Proportional to √V",
