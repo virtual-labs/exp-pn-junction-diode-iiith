@@ -55,10 +55,10 @@
     {
       "question": "What is the significance of the built-in potential (V_bi) in a PN junction, and how is it calculated?",
       "answers": {
-        "a": "V_bi = (kT/q)ln(Na×Nd/ni²); it represents the potential barrier that carriers must overcome",
-        "b": "V_bi = kT/q; it represents the thermal voltage",
-        "c": "V_bi = Na×Nd; it represents the doping concentration product",
-        "d": "V_bi = ni²; it represents the intrinsic carrier concentration"
+        "a": "\\( V_{bi} = \\frac{kT}{q} \\ln\\left(\\frac{N_a \\times N_d}{n_i^2}\\right) \\); it represents the potential barrier that carriers must overcome",
+        "b": "\\( V_{bi} = \\frac{kT}{q} \\); it represents the thermal voltage",
+        "c": "\\( V_{bi} = N_a \\times N_d \\); it represents the doping concentration product",
+        "d": "\\( V_{bi} = n_i^2 \\); it represents the intrinsic carrier concentration"
       },
       "explanations": {
         "a": "Correct. The built-in potential is the natural barrier voltage that develops across the junction and depends on doping concentrations and intrinsic carrier density.",

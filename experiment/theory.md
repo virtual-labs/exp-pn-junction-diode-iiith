@@ -42,7 +42,16 @@ The electric field in the depletion region varies with position. For an abrupt j
 ### 4. Junction Capacitance
 ![](./images/q4.png)
 
-### 5. Temperature Effects
+### 5. Capacitive Effects in the pn junction
+DEPLETION capacitance
+- charge stored in depletion layer changes with the change of voltage across pn junction gives rise to capacitive effect.
+- pn junction is reversed bias.
+DIFFUSION capacitance
+- minority carrier charge stored in the n and p materials as a result of the concentration profiles established by carrier injection.
+- charges stored in bulk region changes with the change of voltage across on junction gvies rise to capacitive effects. 
+![](./images/cap.png)
+
+### 6. Temperature Effects
 
 Temperature influences:
 - Built-in potential (decreases with T)
