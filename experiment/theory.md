@@ -42,29 +42,93 @@ The electric field in the depletion region varies with position. For an abrupt j
 ### 4. Junction Capacitance
 ![](./images/q4.png)
 
-### 5. Capacitive Effects in the pn junction
-DEPLETION capacitance
-- charge stored in depletion layer changes with the change of voltage across pn junction gives rise to capacitive effect.
-- pn junction is reversed bias.
-DIFFUSION capacitance
-- minority carrier charge stored in the n and p materials as a result of the concentration profiles established by carrier injection.
-- charges stored in bulk region changes with the change of voltage across on junction gvies rise to capacitive effects. 
-![](./images/cap.png)
+### 5. Capacitive Effects in the PN Junction
+
+Capacitive effects in a PN junction arise due to the storage of charge when the voltage across the junction changes. These capacitances are classified into two types:
+
+---
+
+#### 1. Depletion Capacitance
+- The **Depletion Capacitance** (\( C_d \)) occurs due to the charge stored in the depletion layer.
+- When the reverse bias voltage across the PN junction changes, the width of the depletion region also changes, which alters the stored charge.
+- The depletion capacitance is given by:
+
+\[
+C_d = \frac{dQ}{dV}
+\]
+
+where:
+
+- \( Q \) is the charge stored in the depletion region
+- \( V \) is the applied voltage
+
+For an abrupt PN junction, the depletion capacitance is approximately:
+
+\[
+C_d = \varepsilon \frac{A}{W}
+\]
+
+where:
+
+- \( \varepsilon \) = Permittivity of the semiconductor
+- \( A \) = Cross-sectional area of the junction
+- \( W \) = Width of the depletion region
+
+---
+
+#### 2. Diffusion Capacitance
+- The **Diffusion Capacitance** (\( C_{diff} \)) arises due to the minority carrier charge stored in the neutral regions of the PN junction under **forward bias** conditions.
+- When a voltage is applied, minority carriers are injected into the neutral regions, establishing a charge gradient.
+
+The diffusion capacitance is given by:
+
+\[
+C_{diff} = \frac{dQ_{minority}}{dV}
+\]
+
+It can be approximated as:
+
+\[
+C_{diff} \approx \frac{\tau I}{V_T}
+\]
+
+where:
+
+- \( \tau \) = Minority carrier lifetime
+- \( I \) = Forward current
+- \( V_T = \frac{kT}{q} \) is the thermal voltage
+
+---
+
+### Comparison Table
+
+| Capacitance Type     | Condition       | Stored Charge             | Dominates in        |
+|---------------------|----------------|--------------------------|--------------------|
+| **Depletion Capacitance** | Reverse Bias | Charge in depletion layer | Reverse bias operation |
+| **Diffusion Capacitance**  | Forward Bias | Minority carrier charge    | Forward bias operation |
+
+---
+
+### Diagram
+
+![Capacitive Effects](./images/cap.png)
+
+---
+
+
 
 ### 6. Temperature Effects
 
 
 | Feature                   | Effect with Temperature Increase | Explanation                          |
 |----------------------------|----------------------------------|-------------------------------------|
-| **Built-in Potential**      | Decreases                      | Higher \( n_i \) reduces potential barrier |
-| **Reverse Saturation Current** | Increases Exponentially        | Higher \( n_i^2 \) generates more leakage current |
+| **Built-in Potential**      | Decreases                      | Higher \( n \) reduces potential barrier |
+| **Reverse Saturation Current** | Increases Exponentially        | Higher \( n*n \) generates more leakage current |
 | **Bandgap Energy**          | Decreases                      | Lattice vibrations weaken atomic bonds |
 | **Carrier Mobility**         | Decreases                      | More phonon scattering |
-| **Diffusion Coefficient**     | Slightly Increases            | \( kT \) rise partially compensates for lower mobility |
+| **Diffusion Coefficient**     | Slightly Increases            | kT  rise partially compensates for lower mobility |
 
 ---
-
-Let me know if you need **derivations** or **graphical representations**! 😊
 
 
 ## Applications
