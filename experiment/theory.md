@@ -62,7 +62,8 @@ PN junctions are fundamental to:
 ## Diagrams
 
 ### 1. Formation of Depletion Region
-![PN Junction Depletion Region Diagram](./images/depletion.png)
+<img src="./images/depletion.png" alt="PN Junction Depletion Region Diagram" width="600"/>
+
 
 ### 2. Electric Field and Charge Density
-![Electric Field and Charge Distribution Diagram](./images/electric.png)
+<img src="./images/electric.png" alt="Electric Field and Charge Distribution Diagram" width="600"/>
