@@ -53,7 +53,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "What is the significance of the built-in potential \\( V_{bi} \\) in a PN junction, and how is it calculated?",
+      "question": "What is the significance of the built-in potential $$ V_{bi} $$ in a PN junction, and how is it calculated?",
       "answers": {
         "a": "$$ V_{bi} = \\frac{kT}{q} \\ln\\left(\\frac{N_a \\times N_d}{n_i^2}\\right) $$; it represents the potential barrier that carriers must overcome",
         "b": "$$ V_{bi} = \\frac{kT}{q} $$; it represents the thermal voltage",

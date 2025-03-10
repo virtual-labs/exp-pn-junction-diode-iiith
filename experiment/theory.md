@@ -9,9 +9,10 @@ A **PN junction** is formed by bringing together p-type and n-type semiconductor
 
 When these materials join, two fundamental processes occur:
 1. **Diffusion:** Majority carriers diffuse across the junction due to concentration gradients.
-2. **Drift:** An electric field develops that causes drift of carriers in the opposite direction. Drift flow of current is in the opposite direction to diffusion current.
+2. **Drift:** An electric field develops that causes drift of carriers in the opposite direction. Drift flow of current is in the opposite direction to diffusion current. Hole current Jp is given by 
 
 ![Current Flow](./images/image.png)
+total current is sum of hole and electron currents. Also for electrons the current is given above.
 
 ## Key Concepts and Physical Mechanisms
 
@@ -20,18 +21,20 @@ When these materials join, two fundamental processes occur:
 When p-type and n-type semiconductors make contact:
 - Electrons diffuse from n-type to p-type region, leaving behind immobile positive donor ions.
 - Holes diffuse from p-type to n-type region, leaving behind immobile negative acceptor ions.
-- This creates a **depletion region** (space charge region) containing exposed ionic charges.
-- The exposed ions create an internal **electric field** (E-field) that opposes further diffusion.
+- This creates a **depletion region** (space charge region) containing immobile ionic charges.
+- The exposed immobile ions create an internal **electric field** (E-field) that opposes further diffusion.
 
 ![](./images/q1.png)
 
 ### 2. Electric Field and Charge Distribution
 
-The electric field in the depletion region varies with position. For an abrupt junction:
+The electric field in the depletion region varies with position. Assume a PN junction at x=0,n-type material for x<0 and p-type material for x>0.Depletion region, les say extends from -Xn to 0 and 0 to Xn.
+Electric field can be calculated using poisson's equation . 
 
 ![](./images/q2.png)
 
 ### 3. Current-Voltage Characteristics
+When Va > 0, the device is said to be forward biased as external field opposes the built-in field and allows the diffusion current (majority carriers) to dominate the PN junction current .We can approximate it by the following equation called diode equation.
 
 #### Forward Bias , Reverse bias
 
@@ -41,8 +44,6 @@ The electric field in the depletion region varies with position. For an abrupt j
 
 ### 4. Junction Capacitance
 ![](./images/q4.png)
-
-### 5. Capacitive Effects in the PN Junction
 
 Capacitive effects in a PN junction arise due to the storage of charge when the voltage across the junction changes. These capacitances are classified into two types:
 
@@ -98,9 +99,6 @@ PN junctions are fundamental to:
 
 ## Diagrams
 
-### 1. Formation of Depletion Region
+### 1. Formation of Depletion Region and Electric Field and Charge Density
 <img src="./images/depletion.png" alt="PN Junction Depletion Region Diagram" width="600"/>
 
-
-### 2. Electric Field and Charge Density
-<img src="./images/electric.png" alt="Electric Field and Charge Distribution Diagram" width="600"/>
