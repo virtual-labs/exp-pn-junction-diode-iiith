@@ -1,3 +1,16 @@
+/* CSS for dominant current arrows */
+.arrow[data-type*="thick"] {
+  font-weight: bold;
+  color: red;
+  border-bottom: 3px solid red; /* Thicker line for dominant current */
+}
+
+/* CSS for non-dominant current arrows */
+.arrow[data-type*="thin"] {
+  font-weight: normal;
+  color: black;
+  border-bottom: 1px solid black; /* Thinner line for non-dominant current */
+}
 .main-content {
     display: flex;
     flex-direction: row;
@@ -308,7 +321,7 @@
 
 /* Keep all existing CSS the same, only modifying/adding diagram-related mobile styles */
 
-@media screen and (max-width: 874px) {
+@media screen and (max-width: 1074px) {
     .main-content {
         flex-direction: column;
         height: auto;
