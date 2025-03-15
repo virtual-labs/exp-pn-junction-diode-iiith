@@ -28,7 +28,7 @@ When p-type and n-type semiconductors make contact:
 
 ### 2. Electric Field and Charge Distribution
 
-The electric field in the depletion region varies with position. Assume a PN junction at x=0,n-type material for x<0 and p-type material for x>0.Depletion region, les say extends from -Xn to 0 and 0 to Xn.
+The electric field in the depletion region varies with position. Assume a PN junction at x=0,n-type material for x<0 and p-type material for x>0.Depletion region, extends from -Xn to 0 and 0 to Xp.
 Electric field can be calculated using poisson's equation . 
 
 ![](./images/q2.png)
