@@ -1,1 +1,1 @@
-## PN JUNCTION DIODE
+## Semiconductor PN Junctions(PN)
