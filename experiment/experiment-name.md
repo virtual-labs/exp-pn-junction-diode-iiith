@@ -1,1 +1,1 @@
-## PN JUNCTION DIODE
+## PN Junction Diode
