@@ -1,6 +1,3 @@
-# PN Junction Theory and Mechanisms
-
-## Theory
 
 A **PN junction** is formed by bringing together p-type and n-type semiconductor materials. These semiconductors have distinct properties due to their doping:
 

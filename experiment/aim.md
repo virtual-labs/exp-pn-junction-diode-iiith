@@ -1,4 +1,4 @@
-### Aim of the experiment
+
 
 This experiment aims to understand and visualize the fundamental mechanisms of carrier transport in a PN junction semiconductor device under different biasing conditions. Specifically, the objectives are:
 
