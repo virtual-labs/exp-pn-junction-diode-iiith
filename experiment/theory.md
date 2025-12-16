@@ -6,10 +6,26 @@ A **PN junction** is formed by bringing together p-type and n-type semiconductor
 
 When these materials join, two fundamental processes occur:
 1. **Diffusion:** Majority carriers diffuse across the junction due to concentration gradients.
-2. **Drift:** An electric field develops that causes drift of carriers in the opposite direction. Drift flow of current is in the opposite direction to diffusion current. Hole current Jp is given by 
+2. **Drift:** An electric field develops that causes drift of carriers in the opposite direction.
 
-![Current Flow](./images/image.png)
-total current is sum of hole and electron currents. Also for electrons the current is given above.
+**Important:** At **thermal equilibrium** (zero external bias), the drift current exactly balances the diffusion current, resulting in zero net current. Under forward or reverse bias conditions, these currents do not cancel, leading to a net current flow.
+
+The **hole current density** Jp is given by:
+
+$$J_p = q\mu_p p E - qD_p \frac{dp}{dx}$$
+
+The **electron current density** Jn is given by:
+
+$$J_n = q\mu_n n E + qD_n \frac{dn}{dx}$$
+
+Where:
+- q = electronic charge
+- μp, μn = hole and electron mobilities
+- p, n = hole and electron concentrations
+- E = electric field
+- Dp, Dn = hole and electron diffusion coefficients
+
+The first term represents drift current (due to electric field) and the second term represents diffusion current (due to concentration gradients). The total current is the sum of hole and electron currents: **J = Jp + Jn**.
 
 ## Key Concepts and Physical Mechanisms
 

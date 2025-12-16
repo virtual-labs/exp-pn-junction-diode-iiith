@@ -2,15 +2,59 @@
 
 ## Task-1: Identifying Regions and Breakdown
 
-- The simulation displays a visual representation of a PN junction diode.
-- The P-region and N-region are clearly marked with different colors.
-- The depletion region is shown in the center, with dashed borders.
-- Observe the charge indicators (positive and negative charges) in each region.
-- When the breakdown preset is selected, the diode visualization animates with sparks and a warning appears.
-- **Your task:** Identify and label the P-region, N-region, and depletion region. Note the changes when breakdown occurs.
-
-## Task-2: Exploring Electric Field and Charge Distribution
-
+1. Open the simulation and observe the visual representation of the PN junction diode.
+2. Identify the P-region (shown in one color) on the left side of the junction.
+3. Identify the N-region (shown in a different color) on the right side of the junction.
+4. Locate the depletion region in the center, marked with dashed borders.
+5. Observe the charge indicators:
+   - Note the positive charges in the depletion region near the N-side
+   - Note the negative charges in the depletion region near the P-side
+6. Select the breakdown preset from the available options.
+7. Watch the diode visualization animate with sparks and observe the warning message.
+1. Locate the interactive controls panel on the simulation interface.
+2. Set the initial voltage to 0V (zero bias condition).
+3. Note the initial electric field distribution shown by animated lines and arrows.
+4. Gradually increase the voltage in positive direction (forward bias):
+   - Observe how the electric field lines change
+   - Note the changes in depletion width
+5. Reset the voltage to 0V.
+6. Gradually decrease the voltage in negative direction (reverse bias):
+   - Observe how the electric field intensifies
+   - Note the increase in depletion width
+7. Adjust the doping concentration parameter:
+1. Locate the measurements section on the simulation interface.
+2. Set the diode to zero bias condition (0V).
+3. Record the following initial values:
+   - Built-in potential (V₀)
+   - Depletion width (W)
+   - Current (I)
+1. Click on the Challenge tab in the simulation interface.
+2. Start with the diagram labeling exercise:
+   - Drag and drop labels to the correct parts of the PN junction
+   - Submit your answer
+   - Review the feedback provided
+3. Proceed to the multiple-choice questions:
+   - Read each question carefully
+   - Select your answer based on your observations from previous tasks
+   - Check the immediate feedback
+4. Complete the fill-in-the-blanks exercise:
+   - Type your answers for each blank
+   - Use the measurements and observations from Task-3 to guide your responses
+5. Attempt the matching exercise:
+   - Match concepts with their definitions
+   - Match parameters with their effects on the diode
+6. Review any incorrect answers and revisit the relevant sections of the simulation.
+7. Retake the challenges if needed to achieve a perfect score
+5. Increase forward bias to +0.5V and +0.7V:
+   - Record measurements at each voltage level
+   - Observe the exponential increase in current
+6. Apply reverse bias voltage of -1V, -3V, and -5V:
+   - Record depletion width at each voltage
+   - Record the reverse saturation current
+   - Note how depletion width increases with reverse voltage
+7. Create a table with your recorded measurements.
+8. Analyze the relationship between voltage, depletion width, and current
+8. Record your observations for at least three different parameter combinations
 - Use the interactive controls panel to adjust parameters such as voltage and doping concentration.
 - As you change these parameters, observe how the electric field lines and charge distribution update in real time.
 - The electric field is visualized with animated lines and arrows.

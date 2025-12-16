@@ -3011,7 +3011,7 @@
                 content: "Excellent! You discovered that different materials have different built-in potentials. Germanium has a smaller bandgap than Silicon, resulting in a lower built-in potential. This is fundamental to semiconductor device design!",
                 target: "#material",
                 challenge: null,
-                position: "bottom"
+                position: "center"
             },
             {
                 title: "🎯 Challenge 2: The Doping Effect",
@@ -4278,11 +4278,15 @@
             if (V >= 0) {
                 I = Is * (Math.exp(V / (n * Vt_volts)) - 1);
                 I = Math.min(I, 10);
-            } else if (V > -5) {
+            } else if (V > -4.5) {
                 I = -Is * (1 + Math.abs(V) * 0.1);
             } else {
-                I = -Is * Math.exp(0.5 * (Math.abs(V) - 5));
-                I = Math.max(I, -10);
+                // Avalanche breakdown: abrupt increase in reverse current (in Amps)
+                const breakdown_voltage = -4.5;
+                const excess_voltage = Math.abs(V) - Math.abs(breakdown_voltage);
+                // Exponential increase in current during breakdown - starts at ~1A
+                I = -1.0 * Math.exp(excess_voltage * 3); // Start at 1A and increase exponentially
+                I = Math.max(I, -200); // Limit to -200A for visualization
             }
 
             const P = Math.abs(V * I);
