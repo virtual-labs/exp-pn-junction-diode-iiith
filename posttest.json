@@ -1,0 +1,158 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What happens to the electric field inside the depletion region of a PN junction at equilibrium?",
+      "answers": {
+        "a": "It is zero everywhere",
+        "b": "It points from n-side to p-side",
+        "c": "It points from p-side to n-side",
+        "d": "It oscillates"
+      },
+      "explanations": {
+        "a": "Incorrect. An electric field exists due to charge separation.",
+        "b": "Correct. Positive ions remain on the n-side and negative ions on the p-side, creating an electric field pointing from n to p.",
+        "c": "Incorrect. The field opposes the diffusion of carriers.",
+        "d": "Incorrect. The electric field is static at equilibrium, not oscillating."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of biasing reduces the width of the depletion region in a PN junction?",
+      "answers": {
+        "a": "Forward bias",
+        "b": "Reverse bias",
+        "c": "No bias",
+        "d": "Thermal bias"
+      },
+      "explanations": {
+        "a": "Correct. Forward bias reduces the built-in potential, narrowing the depletion width.",
+        "b": "Incorrect. Reverse bias increases the depletion width.",
+        "c": "Incorrect. Equilibrium depletion width remains constant without external bias.",
+        "d": "Incorrect. Thermal effects don't directly apply here."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a PN junction at equilibrium, what balances the diffusion current of electrons?",
+      "answers": {
+        "a": "Recombination current",
+        "b": "Electron drift current",
+        "c": "Hole drift current",
+        "d": "Generation current"
+      },
+      "explanations": {
+        "a": "Incorrect. Recombination affects carrier lifetime, not the opposing current.",
+        "b": "Correct. Drift current due to electric field opposes the diffusion of electrons.",
+        "c": "Incorrect. Hole drift current balances hole diffusion current, not electron diffusion.",
+        "d": "Incorrect. Generation affects carrier population but not steady-state current balance."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the dominant mechanism of current flow in a PN junction under forward bias?",
+      "answers": {
+        "a": "Drift of minority carriers",
+        "b": "Diffusion of majority carriers",
+        "c": "Recombination at contacts",
+        "d": "Photon-assisted tunneling"
+      },
+      "explanations": {
+        "a": "Incorrect. Drift dominates in reverse bias.",
+        "b": "Correct. Forward bias reduces the barrier, allowing majority carriers to diffuse across the junction.",
+        "c": "Incorrect. Recombination happens but does not dominate current flow.",
+        "d": "Incorrect. Tunneling is not typical in standard PN junctions."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does the width of the depletion region vary with reverse bias voltage (V<sub>R</sub>)?",
+      "answers": {
+        "a": "Linearly with V<sub>R</sub>",
+        "b": "Proportional to V<sub>R</sub><sup>2</sup>",
+        "c": "Proportional to √V<sub>R</sub>",
+        "d": "Inversely proportional to V<sub>R</sub>"
+      },
+      "explanations": {
+        "a": "Incorrect. Not a linear relation.",
+        "b": "Incorrect. That's not supported by the depletion approximation.",
+        "c": "Correct. Depletion width increases as √(V<sub>bi</sub> + V<sub>R</sub>).",
+        "d": "Incorrect. Width increases with reverse bias, not decreases."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Under large forward bias, the I-V characteristic of a PN junction becomes:",
+      "answers": {
+        "a": "Linear",
+        "b": "Exponential",
+        "c": "Parabolic",
+        "d": "Constant"
+      },
+      "explanations": {
+        "a": "Incorrect. Only small-signal models assume linearity.",
+        "b": "Correct. The ideal diode equation shows I ∝ exp(qV/kT).",
+        "c": "Incorrect. No quadratic dependence here.",
+        "d": "Incorrect. Current is not constant with voltage."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A PN junction is used in rectification circuits primarily because:",
+      "answers": {
+        "a": "It passes current equally in both directions",
+        "b": "It stores charge efficiently",
+        "c": "It allows current only in one direction",
+        "d": "It behaves like an ideal resistor"
+      },
+      "explanations": {
+        "a": "Incorrect. That's the opposite of diode behavior.",
+        "b": "Incorrect. That's more relevant for capacitors.",
+        "c": "Correct. The unidirectional property makes it ideal for rectifiers.",
+        "d": "Incorrect. Diodes are highly nonlinear."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What effect does temperature increase have on the reverse saturation current I<sub>0</sub> of a PN junction?",
+      "answers": {
+        "a": "It decreases",
+        "b": "It remains the same",
+        "c": "It increases exponentially",
+        "d": "It fluctuates randomly"
+      },
+      "explanations": {
+        "a": "Incorrect. Carrier generation increases with temperature.",
+        "b": "Incorrect. I<sub>0</sub> is temperature dependent.",
+        "c": "Correct. I<sub>0</sub> increases exponentially with temperature due to increased intrinsic carriers.",
+        "d": "Incorrect. Not a random process."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "A Zener diode differs from a standard PN junction diode primarily because:",
+      "answers": {
+        "a": "It operates in forward bias only",
+        "b": "It has no depletion region",
+        "c": "It allows significant current in reverse bias",
+        "d": "It blocks current in all conditions"
+      },
+      "explanations": {
+        "a": "Incorrect. Zener diodes are used in reverse bias mode.",
+        "b": "Incorrect. The depletion region exists in all diodes.",
+        "c": "Correct. Zener diodes conduct in reverse bias due to avalanche or tunneling breakdown.",
+        "d": "Incorrect. Diodes allow current based on bias conditions."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    }
+  ]
+}
